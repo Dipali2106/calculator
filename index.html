@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Lobster&family=Oswald:wght@500&family=Playfair+Display:ital@1&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1 class="name"> Calculator </h1>
+
+    <div class="first">
+        <input type="text"  value="result" id="result" />
+        <input class="a" type="button" value="C" onclick="clearScreen()" />
+      </div>
+      <div class="second">
+        <input type="button" value="1" onclick="dp(1)" />
+        <input type="button" value="2" onclick="dp(2)" />
+        <input type="button" value="3"onclick="dp(3)"  />
+        <input type="button" value="+" onclick="dp('+')" />
+      </div>
+      <div class="third">
+        <input type="button" value="4" onclick="dp(4)" />
+        <input type="button" value="5" onclick="dp(5)" />
+        <input type="button" value="6"onclick="dp(6)" />
+        <input type="button" value="-" onclick="dp('-')" />
+      </div>
+      <div class="fourth">
+        <input type="button" value="7"onclick="dp(7)" />
+        <input type="button" value="8"onclick="dp(8)"  />
+        <input type="button" value="9" onclick="dp(9)" />
+        <input type="button" value="x" onclick="dp('*')" />
+      </div>
+      <div class="fifth">
+        <input type="button" value="/"onclick="dp('/')"  />
+        <input type="button" value="0"onclick="dp(0)"  />
+        <input type="button" value="." onclick="dp('.')" />
+        <input type="button" value="=" onclick="result.value=eval(result.value)" />
+      </div>
+
+
+   <script type="text/javascript" src="index.js"> </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+body{
+  background-color:white;
+  text-align: center;
+}
+.name{
+  font-family: 'Lato', cursive;
+
+
+  font-size: 100px;
+  color:#C71585;
+}
+input{
+  color:#FFFAFA;
+  font-size:30px;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  background-color:black;
+  border-redius:4px;
+}
+.first,.second,.third,.fourth,.fifth{
+  margin-bottom: 20px;
+}
+input[type="text"]
+{
+  width:250px;
+}
+.a{
+background-color:red;
+}
